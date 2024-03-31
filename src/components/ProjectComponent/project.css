@@ -1,0 +1,91 @@
+.projectBox{
+    height: 100%;
+}
+
+.imgBox{
+    /* border: 2px solid white; */
+    height: 300px;
+    border-radius: 60px;
+    width: 100rem;
+    margin: 30px 75px 10px 20px;
+    padding: 17px 0px;
+    /* text-decoration: none; */
+}
+
+.imgBox h4{
+    font-size: 15px;
+    color: white;
+    /* text-decoration: none; */
+}
+
+.imgBox p{
+    font-size: 10px;
+    color: white;
+    /* text-decoration: none; */
+}
+
+.imgBox img{
+    margin-top: 25px;
+    /* text-decoration: none; */
+}
+
+.imgBox:hover{
+    background: #000;
+    color: rgb(28, 28, 37);
+}
+
+@media (max-width:468px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .projectBox{
+        margin-top: 180px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .projectIcon{
+        margin-left: 50px;
+        width: 100%;
+        height: auto;
+        /* position: relative; */
+        /* right: 80px; */
+    }
+
+    .imgBox img{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (min-width:469px) and (max-width:768px)  {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .projectBox{
+        margin-top: 180px;
+        width: 100%;
+        height: auto;
+    }
+
+    .projectIcon{
+        margin-left: 130px;
+        width: 100%;
+        height: auto;
+        /* padding-left: 100px; */
+        /* background: white; */
+        /* position: absolute; */
+        /* left: 200px; */
+    }
+
+    .imgBox img{
+        width: 100%;
+        height: auto;
+    }
+
+}
