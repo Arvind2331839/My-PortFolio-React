@@ -7,7 +7,7 @@ export default function Project() {
         {img : 'img/blog.jpeg', name : 'Blog App', msg : 'Click For More Details', path : '/blogApp'},
         {img : 'img/ArogyaSetu.png', name : 'ArogyaSetu Website', msg : 'Click For More Details', path : '/arogyaSetu'},
         {img : 'img/food-order.avif', name : 'Food ordering Website', msg : 'Click For More Details', path : '/food-order'},
-        {img : 'img/youtube.png', name : 'YouTubeClone', msg : 'Click For More Details', path : '/YouTubeClone'},
+        {img : 'img/youtube.avif', name : 'YouTubeClone', msg : 'Click For More Details', path : '/YouTubeClone'},
         {img : 'img/techHelp.jpg', name : 'TechHelp', msg : 'Click For More Details', path : '/techHelp'},
         {img : 'img/weather.avif', name : 'Weather', msg : 'Click For More Details', path : '/weather'},
         {img : 'img/student.png', name : 'Student', msg : 'Click For More Details', path : '/student'},
