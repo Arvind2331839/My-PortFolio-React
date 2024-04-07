@@ -9,7 +9,9 @@ export default function Home(){
         <div className='col-lg-6 text-center'>
             <h1>Hi, My name is Arvind Kumar</h1>
             <h1>and I am a passionate</h1>
-            <h1>MERN Stack Developer.</h1>
+            <h1>MERN Stack Developer.</h1><br />
+            <h3>Skills:-</h3>
+            <p>HTML, CSS, Tailwind css, Bootstrap, Material ui, Java Script, Api's, React js, Redux Toolkit, Node js, Express js, Mongodb,</p>
             <br/>
             <button className='btn' onClick={()=>window.open('https://www.linkedin.com/in/arvindkumar2331839/')}>Visit LikedIn</button> &nbsp; &nbsp; 
             <button className='btn' onClick={()=>window.open('https://github.com/Arvind2331839')}>Visit Github</button>
